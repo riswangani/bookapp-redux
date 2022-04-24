@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterScreen should render Register Screen, module correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "marginVertical": 5,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 30,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={1}
+          style={
+            Object {
+              "height": 318.7142857708,
+              "maxHeight": 200,
+              "maxWidth": 300,
+              "width": "70%",
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#e8e8e8",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "marginVertical": 5,
+              "paddingHorizontal": 10,
+              "width": "100%",
+            }
+          }
+        >
+          <TextInput
+            onChangeText={[Function]}
+            placeholder="Full Name"
+            style={Object {}}
+            testID="InputName"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#e8e8e8",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "marginVertical": 5,
+              "paddingHorizontal": 10,
+              "width": "100%",
+            }
+          }
+        >
+          <TextInput
+            onChangeText={[Function]}
+            placeholder="Email"
+            style={Object {}}
+            testID="InputEmail"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderColor": "#e8e8e8",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "marginVertical": 5,
+              "paddingHorizontal": 10,
+              "width": "100%",
+            }
+          }
+        >
+          <TextInput
+            onChangeText={[Function]}
+            placeholder="Password"
+            secureTextEntry={true}
+            style={Object {}}
+            testID="InputPassword"
+          />
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#B7343D",
+              "borderRadius": 5,
+              "marginVertical": 15,
+              "opacity": 1,
+              "padding": 15,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontWeight": "bold",
+                },
+                undefined,
+              ]
+            }
+          >
+            Register
+          </Text>
+        </View>
+        <Text>
+          Already Have an Account?
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderRadius": 5,
+              "marginVertical": 15,
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontWeight": "bold",
+                },
+                Object {
+                  "color": "gray",
+                },
+              ]
+            }
+          >
+            Login
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
